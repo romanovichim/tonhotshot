@@ -3,6 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://romanovichim.github.io/tonhotshot/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
