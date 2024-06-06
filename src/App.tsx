@@ -279,7 +279,7 @@ function Home() {
 
   return (
     <div className="vh-100 bg-dark">
-    <Container fluid className="py-4 text-center" data-bs-theme="dark">
+    <Container fluid className="py-1 text-center" data-bs-theme="dark">
     <br/>
     <p style={{ fontSize: "30px", fontWeight: "600"  }} className="text-white">King of the hill</p>
     <Row>
@@ -308,7 +308,6 @@ function Home() {
     </Col>
     <Col></Col>
     </Row>
-    <br />
     </Container >
     <Container  fluid className="py-4 text-center" data-bs-theme="dark">
     <p style={{ fontSize: "25px", fontWeight: "190"  }} className="text-white">Memecoin Terminal</p> 
