@@ -1,0 +1,8 @@
+.mb-3 {
+    border-width: 0 !important; 
+}
+
+.mb-3:hover{
+
+    border: 2px solid white !important;
+   }
