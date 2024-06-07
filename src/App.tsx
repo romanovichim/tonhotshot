@@ -320,8 +320,7 @@ function Home() {
     <Spinner animation="border" role="status" variant="primary">
             <span className="visually-hidden">Loading...</span>
     </Spinner>
-    <p className="text-secondary">Scannin every block for Memecoin on TON!</p>
-    <p className="text-secondary">Wait 5 second for new block and new memcoin pumps will apear</p>
+    <p className="text-secondary">Scannin every blck for Memecoin on TON! - W8t 5 second and new memecoin will apear</p>
   </Container >
 
   <Container data-bs-theme="dark">
