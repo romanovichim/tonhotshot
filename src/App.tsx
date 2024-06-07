@@ -77,7 +77,12 @@ function Layout() {
         <Modal.Header closeButton>
           <Modal.Title className="text-white">How it works</Modal.Title>
         </Modal.Header>
-        <Modal.Body className="text-white">TBD Name shows pumps of memecoin on stonfi! First it loads all the pools and find king of the hill = biggest pool by TVL below 60k$. When is starts to inspect every block to find new pumps and dumps of memecoins on stonfi!</Modal.Body>
+        <Modal.Body className="text-white">
+        <p>Hotshot shows pumps of memecoin on stonfi! First it loads all the pools and find king of the hill = biggest pool by TVL below 60k$. When is starts to inspect every block to find new pumps and dumps of memecoins on stonfi!
+        </p>
+        <p>Frequent occurrences of memcoin buying or selling can tell you its popularity!</p>
+        <p>Double-click on the card and you will be redirected to the token purchase page</p>
+        </Modal.Body>
         <Modal.Footer>
         <Container fluid className="py-4 text-center">
           <a className="text-white" onClick={handleClose}>[I'm ready to pump]</a>
@@ -281,6 +286,7 @@ function Home() {
     <div className="vh-100 bg-dark">
     <Container fluid className="py-1 text-center" data-bs-theme="dark">
     <br/>
+    <a href="https://t.me/tonhotshot" style={{ fontSize: "25px", fontWeight: "250", textDecoration: 'none' }} className="text-white" target="_blank" rel="noopener noreferrer">[Start a new coin]</a>
     <p style={{ fontSize: "30px", fontWeight: "600"  }} className="text-white">King of the hill</p>
     <Row>
         <Col></Col>
