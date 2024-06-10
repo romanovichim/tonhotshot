@@ -78,7 +78,7 @@ function Layout() {
           <Modal.Title className="text-white">How it works</Modal.Title>
         </Modal.Header>
         <Modal.Body className="text-white">
-        <p>Hotshot shows pumps of memecoin on stonfi! First it loads all the pools and find king of the hill = biggest pool by TVL below 60k$. When is starts to inspect every block to find new pumps and dumps of memecoins on stonfi!
+        <p>Hotshot shows pumps of memecoin on stonfi! First it loads all the pools and find king of the hill = biggest pool by TVL below 69k$. When is starts to inspect every block to find new pumps and dumps of memecoins on stonfi!
         </p>
         <p>Frequent occurrences of memcoin buying or selling can tell you its popularity!</p>
         <p>Double-click on the card and you will be redirected to the token purchase page</p>

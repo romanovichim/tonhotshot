@@ -167,7 +167,7 @@ function createStonfiLink(token0: string, token1: string): string {
     // Consider scenarios for TON and token links
     const tt: string = token0 === 'EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c' ? 'TON' : token0;
     const ff: string = token1 === 'EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c' ? 'TON' : token1;
-    const ref: string = 'EQAvmc9oVnOvLFlUAgeNmZNZoKeDg9vTEiAQxNFw-t5mh3m7';
+    const ref: string = 'UQBLoIcP6PdyJpi1Qo2tF14Xmb7uvhIq3mEndXkqRDBQRRP2';
 
     const stonfiLink: string = `https://app.ston.fi/swap?ft=${ff}&tt=${tt}&chartVisible=false&fa=10&referral_address=${ref}`;
     return stonfiLink;
@@ -252,7 +252,7 @@ export async function startData(): Promise<startRes> {
     //   jetton['token1_address'] === 'EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c') {
 
 	
-      if (parseFloat(temp_dict['lp_total_supply_usd']) < 60000) {
+      if (parseFloat(temp_dict['lp_total_supply_usd']) < 69000) {
 		// здесь надо убрать все что не TON пулы
 		if (temp_dict['token0_address'] === 'EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c' || temp_dict['token1_address'] === 'EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c') {
         	temp_arr.push(temp_dict);
